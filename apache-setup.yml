@@ -1,5 +1,5 @@
 ---
-- hosts: webserers
+- hosts: all
   become: treu
   tasks:
     - name: installing web components
